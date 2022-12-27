@@ -14,11 +14,10 @@ body {
 }
 
 .tree-back {
-    /* background-image: url(images/tree-back.png); */
     position: relative;
 
     z-index: 10;
-} 
+}
 
 .tree-coner {
     position: absolute;
@@ -35,55 +34,58 @@ body {
 }
 
 .tree1 {
-  
+
     position: absolute;
     bottom: 0;
     z-index: 20;
     right: 620px;
-  }
+}
 
 .ded-moroz {
-  
+
     position: absolute;
     bottom: 250px;
     z-index: 17;
     left: 1px;
     transform: rotate(45deg);
     animation: 1s;
-    animation-name:  ded;
+    animation-name: ded;
 }
+
 .gir-gold {
-  
+
     position: absolute;
     bottom: 585px;
     z-index: 50;
     right: 25px;
     width: 900px;
     animation: 3s;
-    animation-name:  giz;
+    animation-name: giz;
 }
 
 .gir-gold1 {
-  
+
     position: absolute;
     bottom: 585px;
     z-index: 12;
 
     width: 900px;
     left: 470px;
-        animation: 5s;
-    animation-name:  giz1;
+    animation: 5s;
+    animation-name: giz1;
 }
+
 .gir-red {
-  
+
     position: absolute;
     bottom: 610px;
     z-index: 50;
     right: 225px;
     animation: 2s;
-    animation-name:  gi;
+    animation-name: gi;
 }
-.NY{
+
+.NY {
     position: absolute;
 
     color: yellow;
@@ -91,37 +93,80 @@ body {
     right: 200px;
     bottom: 325px;
     animation: 4s;
-    animation-name:  ny;
+    animation-name: ny;
 }
 
-@keyframes gi  {
-    10% { left: 0; }
-    20% {rotate: 360deg;}
-    100%{ left: 400px; }
+@keyframes gi {
+    10% {
+        left: 0;
+    }
 
-   }
-   @keyframes ny {
-    10% { left: 0; }
-    20% {rotate: 360deg;}
-    100%{ left: 400px; }
+    20% {
+        rotate: 360deg;
+    }
 
-   }
-   @keyframes giz {
-    10% { left: 0; }
-    20% {rotate: 360deg;}
-    100%{ left: 400px; }
+    100% {
+        left: 400px;
+    }
 
-   }
-   @keyframes giz1 {
-    10% { left: 0; }
-    20% {rotate: 360deg;}
-    100%{ left: 400px; }
+}
 
-   }
-   @keyframes ded {
-    10% { left: 0; }
-    20% {rotate: 360deg;}
-    100%{ left: 400px; }
+@keyframes ny {
+    10% {
+        left: 0;
+    }
 
-   }
+    20% {
+        rotate: 360deg;
+    }
 
+    100% {
+        left: 400px;
+    }
+
+}
+
+@keyframes giz {
+    10% {
+        left: 0;
+    }
+
+    20% {
+        rotate: 360deg;
+    }
+
+    100% {
+        left: 400px;
+    }
+
+}
+
+@keyframes giz1 {
+    10% {
+        left: 0;
+    }
+
+    20% {
+        rotate: 360deg;
+    }
+
+    100% {
+        left: 400px;
+    }
+
+}
+
+@keyframes ded {
+    10% {
+        left: 0;
+    }
+
+    20% {
+        rotate: 360deg;
+    }
+
+    100% {
+        left: 400px;
+    }
+
+}
