@@ -1,0 +1,127 @@
+body {
+    height: 5000px;
+    width: 5000px;
+
+}
+
+.back-black {
+    background-color: black;
+    height: 900px;
+    width: 900px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+}
+
+.tree-back {
+    /* background-image: url(images/tree-back.png); */
+    position: relative;
+
+    z-index: 10;
+} 
+
+.tree-coner {
+    position: absolute;
+    bottom: 185px;
+    z-index: 13;
+}
+
+.tree-snow {
+
+    position: relative;
+    z-index: 14;
+    top: 290px;
+    left: 370px;
+}
+
+.tree1 {
+  
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+    right: 620px;
+  }
+
+.ded-moroz {
+  
+    position: absolute;
+    bottom: 250px;
+    z-index: 17;
+    left: 1px;
+    transform: rotate(45deg);
+    animation: 1s;
+    animation-name:  ded;
+}
+.gir-gold {
+  
+    position: absolute;
+    bottom: 585px;
+    z-index: 50;
+    right: 25px;
+    width: 900px;
+    animation: 3s;
+    animation-name:  giz;
+}
+
+.gir-gold1 {
+  
+    position: absolute;
+    bottom: 585px;
+    z-index: 12;
+
+    width: 900px;
+    left: 470px;
+        animation: 5s;
+    animation-name:  giz1;
+}
+.gir-red {
+  
+    position: absolute;
+    bottom: 610px;
+    z-index: 50;
+    right: 225px;
+    animation: 2s;
+    animation-name:  gi;
+}
+.NY{
+    position: absolute;
+
+    color: yellow;
+    z-index: 100;
+    right: 200px;
+    bottom: 325px;
+    animation: 4s;
+    animation-name:  ny;
+}
+
+@keyframes gi  {
+    10% { left: 0; }
+    20% {rotate: 360deg;}
+    100%{ left: 400px; }
+
+   }
+   @keyframes ny {
+    10% { left: 0; }
+    20% {rotate: 360deg;}
+    100%{ left: 400px; }
+
+   }
+   @keyframes giz {
+    10% { left: 0; }
+    20% {rotate: 360deg;}
+    100%{ left: 400px; }
+
+   }
+   @keyframes giz1 {
+    10% { left: 0; }
+    20% {rotate: 360deg;}
+    100%{ left: 400px; }
+
+   }
+   @keyframes ded {
+    10% { left: 0; }
+    20% {rotate: 360deg;}
+    100%{ left: 400px; }
+
+   }
+
